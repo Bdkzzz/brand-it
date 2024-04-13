@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand It - Free Water Bottles with Advertisements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#partnership">Partnership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Brand It</h1>
+      <h2>Free Water Bottles with Advertisements</h2>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Brand It</h2>
+      <p>Brand It is a leading agency that provides free water bottles with advertisements on the bottle labels. We
+        believe in the power of branding and the effectiveness of reaching a wide audience through everyday products.
+      </p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product">
+        <img src="/assets/brand it logo.jpg" alt="Water Bottle">
+        <h3>Free Water Bottle</h3>
+        <p>Our free water bottles are of the highest quality and come with customized labels featuring advertisements.
+          They are perfect for events, promotions, and brand awareness campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+        <section id="videos">
+            <div class="container">
+              <h2>Our Videos</h2>
+              <div class="video">
+                <iframe width="560" height="315" src="assets/brand it video 1.mp4" alt="videos" frameborder="0"></iframe>
+                <iframe width="500" height="315" src="assets/brand it video 2.mp4" alt="videos" frameborder="0"></iframe>
+                <iframe width="500" height="315" src="assets/brand it video 3.mp4" alt="videos" frameborder="0"></iframe>
+              </div>
+            </div>
+        </section>
+<!-- muted
+autoplay
+sizing -->
+  
+
+        <section id="partnership">
+            <div class="container">
+              <h2>Partnership Opportunities</h2>
+              <p>We offer a unique platform for advertisers to reach a wide audience through our free water bottles. Partner with us to showcase your brand and increase your visibility.</p>
+              <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </section>
+
+        <section id="contact">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>Interested in partnering with us or have any questions? Fill out the form below and we'll get back to you
+              as
+              soon as possible.</p>
+            <form action="submit_form.php" method="POST">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container">
+            <p>&copy; 2021 Brand It. All rights reserved.</p>
+          </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
