@@ -78,46 +78,46 @@
   </style>
 
   footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
     }
 
     .container {
-    max-width: 1200px;
-    margin: 0 auto;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .footer-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer-col {
-    flex: 1;
+        flex: 1;
     }
 
     footer img {
-    width: 100%;
-    max-width: 200px;
+        width: 100%;
+        max-width: 200px;
     }
 
     .footer-row:last-child {
-    margin-top: 20px;
+        margin-top: 20px;
     }
 
     .footer-col:last-child p {
-    margin-top: 10px;
+        margin-top: 10px;
     }
 
     .footer-col p {
-    font-size: 14px;
+        font-size: 14px;
     }
 
     .footer-col a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
     }
