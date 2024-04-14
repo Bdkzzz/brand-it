@@ -10,8 +10,8 @@
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #d4df58;
+    color: #ffffff;
     padding: 1rem;
   }
   
@@ -22,7 +22,7 @@
   }
   
   nav ul li a {
-    color: #fff;
+    color: #ae2222;
     text-decoration: none;
   }
   
@@ -65,3 +65,14 @@
     width: 200px;
     margin-right: 1rem;
   }
+
+  <style>
+    .video {
+        display: flex;
+        justify-content: space-around; 
+    }
+
+    .video iframe {
+        width: 30%; 
+    }
+  </style>
