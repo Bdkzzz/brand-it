@@ -10,7 +10,7 @@
   }
   
   header {
-        background-color: #d4df58;
+        background-color: #000000;
         color: #ffffff;
         padding: 1rem;
   }
@@ -22,7 +22,7 @@
   }
   
   nav ul li a {
-        color: #ae2222;
+        color: #ffffff;
         text-decoration: none;
   }
   
